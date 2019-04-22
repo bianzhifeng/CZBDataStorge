@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E278DFB219559C8006C6015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E278DFA219559C8006C6015 /* AppDelegate.swift */; };
+		8E278DFD219559C8006C6015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E278DFC219559C8006C6015 /* ViewController.swift */; };
+		8E278E00219559C8006C6015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E278DFE219559C8006C6015 /* Main.storyboard */; };
+		8E278E02219559CA006C6015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E278E01219559CA006C6015 /* Assets.xcassets */; };
+		8E278E05219559CA006C6015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E278E03219559CA006C6015 /* LaunchScreen.storyboard */; };
+		8E777A9521EED02B0085AD4F /* CZBUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E777A9021EED02B0085AD4F /* CZBUserDefaults.swift */; };
+		8E777A9621EED02B0085AD4F /* CZBWCDBProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E777A9121EED02B0085AD4F /* CZBWCDBProtocol.swift */; };
+		8E777A9721EED02B0085AD4F /* CZBFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E777A9221EED02B0085AD4F /* CZBFileManager.swift */; };
+		8E777A9821EED02B0085AD4F /* CZBKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E777A9321EED02B0085AD4F /* CZBKeyChain.swift */; };
+		8E777A9921EED02B0085AD4F /* CZBDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E777A9421EED02B0085AD4F /* CZBDBManager.swift */; };
+		C93F5AF42C6A1AA2D802BD54 /* Pods_CZBDataStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84AD25AEA2086EED5BE1A3B /* Pods_CZBDataStorage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05B9BBB7DBB6DFB467037CA8 /* Pods-CZBDataStorage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZBDataStorage.release.xcconfig"; path = "Pods/Target Support Files/Pods-CZBDataStorage/Pods-CZBDataStorage.release.xcconfig"; sourceTree = "<group>"; };
+		72733BC348EB0E5E561265D3 /* Pods-CZBDataStorage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZBDataStorage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CZBDataStorage/Pods-CZBDataStorage.debug.xcconfig"; sourceTree = "<group>"; };
+		8E278DF7219559C8006C6015 /* CZBDataStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZBDataStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E278DFA219559C8006C6015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E278DFC219559C8006C6015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E278DFF219559C8006C6015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E278E01219559CA006C6015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E278E04219559CA006C6015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E278E06219559CA006C6015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E777A9021EED02B0085AD4F /* CZBUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZBUserDefaults.swift; sourceTree = "<group>"; };
+		8E777A9121EED02B0085AD4F /* CZBWCDBProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZBWCDBProtocol.swift; sourceTree = "<group>"; };
+		8E777A9221EED02B0085AD4F /* CZBFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZBFileManager.swift; sourceTree = "<group>"; };
+		8E777A9321EED02B0085AD4F /* CZBKeyChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZBKeyChain.swift; sourceTree = "<group>"; };
+		8E777A9421EED02B0085AD4F /* CZBDBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZBDBManager.swift; sourceTree = "<group>"; };
+		C84AD25AEA2086EED5BE1A3B /* Pods_CZBDataStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CZBDataStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E278DF4219559C8006C6015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93F5AF42C6A1AA2D802BD54 /* Pods_CZBDataStorage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E278DEE219559C8006C6015 = {
+			isa = PBXGroup;
+			children = (
+				8E278DF9219559C8006C6015 /* CZBDataStorage */,
+				8E278DF8219559C8006C6015 /* Products */,
+				9ED25C52C064F6BF449880BA /* Pods */,
+				E8839F018F1425F582C3ABDF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E278DF8219559C8006C6015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E278DF7219559C8006C6015 /* CZBDataStorage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E278DF9219559C8006C6015 /* CZBDataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				8E777A8F21EED02B0085AD4F /* Tools */,
+				8E278DFA219559C8006C6015 /* AppDelegate.swift */,
+				8E278DFC219559C8006C6015 /* ViewController.swift */,
+				8E278DFE219559C8006C6015 /* Main.storyboard */,
+				8E278E01219559CA006C6015 /* Assets.xcassets */,
+				8E278E03219559CA006C6015 /* LaunchScreen.storyboard */,
+				8E278E06219559CA006C6015 /* Info.plist */,
+			);
+			path = CZBDataStorage;
+			sourceTree = "<group>";
+		};
+		8E777A8F21EED02B0085AD4F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8E777A9021EED02B0085AD4F /* CZBUserDefaults.swift */,
+				8E777A9121EED02B0085AD4F /* CZBWCDBProtocol.swift */,
+				8E777A9221EED02B0085AD4F /* CZBFileManager.swift */,
+				8E777A9321EED02B0085AD4F /* CZBKeyChain.swift */,
+				8E777A9421EED02B0085AD4F /* CZBDBManager.swift */,
+			);
+			path = Tools;
+			sourceTree = SOURCE_ROOT;
+		};
+		9ED25C52C064F6BF449880BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72733BC348EB0E5E561265D3 /* Pods-CZBDataStorage.debug.xcconfig */,
+				05B9BBB7DBB6DFB467037CA8 /* Pods-CZBDataStorage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8839F018F1425F582C3ABDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C84AD25AEA2086EED5BE1A3B /* Pods_CZBDataStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E278DF6219559C8006C6015 /* CZBDataStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E278E09219559CA006C6015 /* Build configuration list for PBXNativeTarget "CZBDataStorage" */;
+			buildPhases = (
+				C59B37DBC074672A623A52EA /* [CP] Check Pods Manifest.lock */,
+				8E278DF3219559C8006C6015 /* Sources */,
+				8E278DF4219559C8006C6015 /* Frameworks */,
+				8E278DF5219559C8006C6015 /* Resources */,
+				A7851FF3FEF7ACFCE6CD81B1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CZBDataStorage;
+			productName = CZBDataStorage;
+			productReference = 8E278DF7219559C8006C6015 /* CZBDataStorage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E278DEF219559C8006C6015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "边智峰";
+				TargetAttributes = {
+					8E278DF6219559C8006C6015 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 8E278DF2219559C8006C6015 /* Build configuration list for PBXProject "CZBDataStorage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E278DEE219559C8006C6015;
+			productRefGroup = 8E278DF8219559C8006C6015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E278DF6219559C8006C6015 /* CZBDataStorage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E278DF5219559C8006C6015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E278E05219559CA006C6015 /* LaunchScreen.storyboard in Resources */,
+				8E278E02219559CA006C6015 /* Assets.xcassets in Resources */,
+				8E278E00219559C8006C6015 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7851FF3FEF7ACFCE6CD81B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CZBDataStorage/Pods-CZBDataStorage-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLiteRepairKit/sqliterk.framework",
+				"${BUILT_PRODUCTS_DIR}/WCDB.swift/WCDBSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/WCDBOptimizedSQLCipher/sqlcipher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqliterk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WCDBSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqlcipher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CZBDataStorage/Pods-CZBDataStorage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59B37DBC074672A623A52EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CZBDataStorage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E278DF3219559C8006C6015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E278DFD219559C8006C6015 /* ViewController.swift in Sources */,
+				8E777A9721EED02B0085AD4F /* CZBFileManager.swift in Sources */,
+				8E777A9621EED02B0085AD4F /* CZBWCDBProtocol.swift in Sources */,
+				8E777A9521EED02B0085AD4F /* CZBUserDefaults.swift in Sources */,
+				8E777A9921EED02B0085AD4F /* CZBDBManager.swift in Sources */,
+				8E278DFB219559C8006C6015 /* AppDelegate.swift in Sources */,
+				8E777A9821EED02B0085AD4F /* CZBKeyChain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E278DFE219559C8006C6015 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E278DFF219559C8006C6015 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E278E03219559CA006C6015 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E278E04219559CA006C6015 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E278E07219559CA006C6015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E278E08219559CA006C6015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E278E0A219559CA006C6015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72733BC348EB0E5E561265D3 /* Pods-CZBDataStorage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJF46GBGJQ;
+				INFOPLIST_FILE = CZBDataStorage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chezhubang.dataStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8E278E0B219559CA006C6015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B9BBB7DBB6DFB467037CA8 /* Pods-CZBDataStorage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJF46GBGJQ;
+				INFOPLIST_FILE = CZBDataStorage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chezhubang.dataStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E278DF2219559C8006C6015 /* Build configuration list for PBXProject "CZBDataStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E278E07219559CA006C6015 /* Debug */,
+				8E278E08219559CA006C6015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E278E09219559CA006C6015 /* Build configuration list for PBXNativeTarget "CZBDataStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E278E0A219559CA006C6015 /* Debug */,
+				8E278E0B219559CA006C6015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E278DEF219559C8006C6015 /* Project object */;
+}

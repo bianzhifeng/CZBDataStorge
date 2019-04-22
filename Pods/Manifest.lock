@@ -1,0 +1,29 @@
+PODS:
+  - KeychainSwift (12.0.0)
+  - SQLiteRepairKit (1.2.1):
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDB.swift (1.0.7.5):
+    - SQLiteRepairKit (~> 1.2.0)
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDBOptimizedSQLCipher (1.2.1)
+
+DEPENDENCIES:
+  - KeychainSwift (~> 12.0.0)
+  - WCDB.swift (~> 1.0.7.5)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KeychainSwift
+    - SQLiteRepairKit
+    - WCDB.swift
+    - WCDBOptimizedSQLCipher
+
+SPEC CHECKSUMS:
+  KeychainSwift: d5e776578587ee5958ce36601df22f168f65138a
+  SQLiteRepairKit: 4d21bab9eff6a273f63da6815a0d1659e53f5bde
+  WCDB.swift: 87aee41f5ca3aded9c6f9b68b0ef3e88918a5ee2
+  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
+
+PODFILE CHECKSUM: 7ded6ac7a027baefdb8226204ff8b59c541fcaf2
+
+COCOAPODS: 1.5.3

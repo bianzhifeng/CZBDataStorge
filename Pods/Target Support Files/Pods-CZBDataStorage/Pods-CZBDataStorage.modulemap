@@ -1,0 +1,6 @@
+framework module Pods_CZBDataStorage {
+  umbrella header "Pods-CZBDataStorage-umbrella.h"
+
+  export *
+  module * { export * }
+}
