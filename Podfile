@@ -5,7 +5,7 @@ inhibit_all_warnings!
 target "CZBDataStorage" do
 
    pod 'KeychainSwift', '~> 12.0.0'
-   pod 'WCDB.swift', '~> 1.0.7.5'
+   pod 'WCDB.swift'
 end
 
 
